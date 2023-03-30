@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jan 10 19:15:09 2023
+# Process ID: 4872
+# Current directory: G:/LU3EE100/console_ee100
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15312 G:\LU3EE100\console_ee100\console_ee100.xpr
+# Log file: G:/LU3EE100/console_ee100/vivado.log
+# Journal file: G:/LU3EE100/console_ee100\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/LU3EE100/console_ee100/console_ee100.xpr
+update_compile_order -fileset sources_1
