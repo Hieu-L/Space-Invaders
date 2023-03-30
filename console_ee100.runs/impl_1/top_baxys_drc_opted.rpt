@@ -1,0 +1,49 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon Dec 19 01:58:19 2022
+| Host         : CNT running 64-bit major release  (build 9200)
+| Command      : report_drc -file top_baxys_drc_opted.rpt -pb top_baxys_drc_opted.pb -rpx top_baxys_drc_opted.rpx
+| Design       : top_baxys
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Synthesized
+------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 1
++-------------+----------+-------------------------------------------------------------+------------+
+| Rule        | Severity | Description                                                 | Violations |
++-------------+----------+-------------------------------------------------------------+------------+
+| PLHOLDVIO-2 | Warning  | Non-Optimal connections which could lead to hold violations | 1          |
++-------------+----------+-------------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PLHOLDVIO-2#1 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT clk25Hz/ypong_left[8]_i_3 is driving clock pin of 17 cells. This could lead to large hold time violations. Involved cells are:
+obj_ctrl/pad_ctrl/xpad_reg[1], obj_ctrl/pad_ctrl/xpad_reg[2],
+obj_ctrl/pad_ctrl/xpad_reg[3], obj_ctrl/pad_ctrl/xpad_reg[4],
+obj_ctrl/pad_ctrl/xpad_reg[5], obj_ctrl/pad_ctrl/xpad_reg[6],
+obj_ctrl/pad_ctrl/xpad_reg[7], obj_ctrl/pad_ctrl/xpad_reg[8],
+obj_ctrl/pad_ctrl/xpad_reg[9], obj_ctrl/pad_ctrl/ypong_left_reg[1],
+obj_ctrl/pad_ctrl/ypong_left_reg[2], obj_ctrl/pad_ctrl/ypong_left_reg[3],
+obj_ctrl/pad_ctrl/ypong_left_reg[4], obj_ctrl/pad_ctrl/ypong_left_reg[5],
+obj_ctrl/pad_ctrl/ypong_left_reg[6] (the first 15 of 17 listed)
+Related violations: <none>
+
+

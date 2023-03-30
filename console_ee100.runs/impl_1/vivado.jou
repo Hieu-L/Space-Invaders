@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Dec 19 01:57:10 2022
+# Process ID: 8752
+# Current directory: G:/LU3EE100/console_ee100/console_ee100.runs/impl_1
+# Command line: vivado.exe -log top_baxys.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_baxys.tcl -notrace
+# Log file: G:/LU3EE100/console_ee100/console_ee100.runs/impl_1/top_baxys.vdi
+# Journal file: G:/LU3EE100/console_ee100/console_ee100.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source top_baxys.tcl -notrace
