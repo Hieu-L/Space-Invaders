@@ -1,6 +1,6 @@
 # Space-Invaders
 
-This repository contains my implementation of a video game console on a FPGA board (Basys3). The console runs Pong and Space Invaders.
+This repository contains my implementation of a video game console on a FPGA board (Basys3). The console runs Pong and Space Invaders, and is played using a Rotary Encoder or Accelerometer. 
 
 This project was made as part of my Numerical Systems & Embedded Processor Course, and was coded in about 4 months.
 
