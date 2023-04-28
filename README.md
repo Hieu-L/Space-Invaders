@@ -11,7 +11,7 @@ All in all, this project helped me :
   - improve my level of understanding in building and integrating numerical architectures.
   - understand how to use FPGA boards to develop more complex projects.
   
-I've included my final presentation of the project in this repository, under the name " " .
+I've included my final presentation of the project in this repository, under the name "soutenance_LU3EE100_LE_CHANG (1).pdf" .
 
 For any and all inquiries, you can contact me at : hoang.hieu.le212@gmail.com .
 
